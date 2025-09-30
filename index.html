@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AllProperly — Spring Property Check-In</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" type="text/css">
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Nunito, Arial, sans-serif;
+      background: #475567;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    @media only screen and (max-width:600px) {
+      .container {
+        width: 100% !important;
+        padding: 12px !important;
+      }
+
+      img {
+        max-width: 100% !important;
+        height: auto !important;
+      }
+
+      .cta-button {
+        padding: 12px 20px !important;
+        font-size: 16px !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td align="center">
+        <!-- Container -->
+        <table role="presentation" width="650" class="container" cellpadding="0" cellspacing="0" border="0"
+          style="max-width:650px; width:100%; background:#ffffff; border:1px solid #e4e9f0; border-radius:10px; padding:20px;">
+
+          <!-- Logo -->
+          <tr>
+            <td align="center" style="padding:20px;">
+              <a href="https://app.allproperly.com/dashboard" target="_blank">
+                <img src="images/logo.png" alt="AllProperly Logo" width="200"
+                  style="display:block; border:0; outline:none; text-decoration:none;">
+              </a>
+            </td>
+          </tr>
+
+          <!-- Headline -->
+          <tr>
+            <td align="center" style="color:#475567; font-size:28px; font-weight:bold; padding:10px 20px;">
+              Freshen Up Your Property This Spring 🌱
+            </td>
+          </tr>
+
+          <!-- Sub-head -->
+          <tr>
+            <td align="center" style="color:#475567; font-size:16px; line-height:24px; padding:10px 20px 20px;">
+              Warmer days are here — the perfect time to refresh and get your property ready for the new season.
+            </td>
+          </tr>
+
+          <!-- Hero / Seasonal Image Slot -->
+          <tr>
+            <td align="center" style="padding:20px;">
+              <img src="images/spring-banner.png" alt="Spring Property Updates" width="500"
+                style="border-radius:10px; display:block; max-width:100%; height:auto;">
+            </td>
+          </tr>
+
+          <!-- Personal Greeting -->
+          <tr>
+            <td style="color:#475567; font-size:16px; line-height:24px; padding:10px 20px 20px; text-align:left;">
+              Hi <strong>{{userName}}</strong>,<br><br>
+              Spring is the season of renewal! Here are some key maintenance tasks to keep your property in great shape:
+            </td>
+          </tr>
+
+          <!-- Updates List -->
+          <tr>
+            <td style="color:#475567; font-size:15px; line-height:22px; padding:10px 20px; text-align:left;">
+              <ul style="margin:10px 0; padding-left:20px;">
+                <li style="padding-bottom: 10px;"><strong>Roof & Gutters:</strong> Clear out debris from winter storms to prevent leaks and water damage.</li>
+                <li style="padding-bottom: 10px;"><strong>Outdoor Spaces:</strong> Refresh landscaping, check fences, and prepare patios/decks for use.</li>
+                <li><strong>HVAC Prep:</strong> Schedule a tune-up to make sure your cooling system is ready before the heat arrives.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- CTA Button -->
+          <tr>
+            <td align="center" style="padding:10px;">
+              <a href="https://app.allproperly.com/dashboard" target="_blank" class="cta-button"
+                style="background:#7baa98; color:#ffffff; text-decoration:none; font-size:16px; font-weight:600; padding:12px 28px; border-radius:8px; display:inline-block;">
+                Go to Your Dashboard →
+              </a>
+            </td>
+          </tr>
+
+          <!-- Encouragement / Benefits -->
+          <tr>
+            <td style="padding:20px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+                style="background:#f9fcfb; border-left:4px solid #7baa98; border-radius:8px;">
+                <tbody>
+                  <tr>
+                    <td>
+                      <div style="padding:15px 18px; font-size:14px; color:#475567;">
+                        Spring check-ins help you catch small issues early and set your property up for success. With AllProperly, you’ll always know:
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding:0px 18px; font-size:14px; color:#475567; line-height:22px;">
+                      <ul style="margin:0; padding-left:20px;">
+                        <li style="margin-bottom:5px;">What’s on your seasonal checklist</li>
+                        <li style="margin-bottom:5px;">How your property is performing after winter</li>
+                        <li>Where you can improve efficiency and reduce costs</li>
+                      </ul>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div style="padding:15px 18px; font-size:14px; color:#475567;">
+                        Stay ahead this spring — so you can enjoy the season without property worries.
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Secondary CTA -->
+          <tr>
+            <td align="center" style="padding:12px;">
+              <a href="https://app.allproperly.com/dashboard" target="_blank"
+                style="background:#7baa98; color:#ffffff; text-decoration:none; font-size:16px; font-weight:600; padding:12px 28px; border-radius:8px; display:inline-block;">
+                Log in now and get a fresh update →
+              </a>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td align="center" style="color:#475567; font-size:14px; line-height:22px; padding:20px;">
+              You’re receiving this email because you signed up for AllProperly.com
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="color:#475567; font-size:14px; line-height:22px; padding:0 20px 20px;">
+              © 2025 All Properly LLC. |
+              <a href="#" target="_blank" style="color:#6A8976; text-decoration:none;">Unsubscribe</a>
+            </td>
+          </tr>
+
+        </table>
+        <!-- End Container -->
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
